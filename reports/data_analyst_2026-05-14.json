@@ -1,0 +1,5 @@
+{
+    "date": "2026-05-14",
+    "target_role": "data analyst",
+    "analysis": "Match Score: 62/100\n\n3 Missing Skills:\n1. Data Visualization Tools (e.g., Tableau, Power BI)\nData Visualization Tools - https://www.google.com/search?q=free+course+for+Data+Visualization+Tools\n2. Statistical Analysis (e.g., R, pandas, NumPy)\nStatistical Analysis - https://www.google.com/search?q=free+course+for+Statistical+Analysis\n3. Business Intelligence (e.g., SQL, data modeling)\nBusiness Intelligence - https://www.google.com/search?q=free+course+for+Business+Intelligence\n\n1 Project Idea:\nTitle: Mental Health Insights Dashboard\nDescription: Develop a data visualization dashboard using Tableau or Power BI to display mental health insights from the MindCare AI system. The dashboard should provide an overview of user mental health trends, including emotion analysis, mood journaling, and emergency alerts. This project will demonstrate the candidate's ability to apply data analysis skills to real-world problems and create actionable insights for stakeholders."
+}

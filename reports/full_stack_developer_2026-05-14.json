@@ -1,0 +1,5 @@
+{
+    "date": "2026-05-14",
+    "target_role": "full stack developer",
+    "analysis": "Match Score: 72/100\n\n3 Missing Skills:\n1. Cloud Computing (e.g., AWS, Azure, Google Cloud)\nCloud Computing - https://www.google.com/search?q=free+course+for+Cloud+Computing\n2. Agile Methodologies (e.g., Scrum, Kanban)\nAgile Methodologies - https://www.google.com/search?q=free+course+for+Agile+Methodologies\n3. Version Control Systems (e.g., Git, SVN)\nVersion Control Systems - https://www.google.com/search?q=free+course+for+Version+Control+Systems\n\n1 Project Idea:\nTitle: Smart Home Automation System\nDescription: Develop a full-stack web application that integrates with IoT devices to control and monitor home appliances remotely. The system should include features such as user authentication, device management, and automation rules. Technologies to be used: Python, Flask, MySQL, HTML, CSS, and IoT frameworks like Home Assistant or OpenHAB."
+}
