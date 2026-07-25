@@ -75,7 +75,9 @@ def generate_pdf_bytes(analysis_text, target_role):
 with st.sidebar:
     st.title("Control Center ⚙️")
     # Using the key you provided in your analyzer file
-    groq_key = st.text_input("Groq API Key", type="password", value="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")
+    # Reads from .env file automatically, or leaves it blank for user input
+    default_key = os.getenv("GROQ_API_KEY", "")
+    groq_key = st.text_input("Enter Groq API Key", type="password", value=default_key)
     st.divider()
     st.success("System: Ready")
 

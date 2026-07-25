@@ -5,6 +5,8 @@ from groq import Groq
 from fpdf import FPDF
 from datetime import datetime
 import PyPDF2 # Ensure you have this installed: pip install PyPDF2
+import os
+import streamlit as st
 
 # 1. PAGE CONFIG & STYLING
 st.set_page_config(page_title="PathWise AI", page_icon="🚀", layout="wide")
@@ -66,7 +68,9 @@ def generate_pdf_report(analysis_text, target_role):
 # 3. SIDEBAR
 with st.sidebar:
     st.title("Control Center ⚙️")
-    groq_key = st.text_input("Enter Groq API Key", type="password", value="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")
+   # Reads from .env file automatically, or leaves it blank for user input
+    default_key = os.getenv("GROQ_API_KEY", "")
+    groq_key = st.text_input("Enter Groq API Key", type="password", value=default_key)
     st.info("System Status: **Active**")
 
 # 4. MAIN UI
