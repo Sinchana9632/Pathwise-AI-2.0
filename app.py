@@ -152,7 +152,7 @@ def create_pdf_bytes(analysis_text, target_role):
     pdf.set_font("Arial", size=10)
     pdf.multi_cell(0, 8, "Review the Match Score. If below 80, prioritize the missing skills using the links above.")
     
-    return pdf.output(dest='S').encode('latin-1')
+    return bytes(pdf.output())
 
 # ==========================================
 # INITIALIZATION & STYLING
