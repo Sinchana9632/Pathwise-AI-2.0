@@ -152,7 +152,9 @@ def create_pdf_bytes(analysis_text, target_role):
     pdf.set_font("Arial", size=10)
     pdf.multi_cell(0, 8, "Review the Match Score. If below 80, prioritize the missing skills using the links above.")
     
-    return bytes(pdf.output())
+    # Properly indented return statement!
+    pdf_out = pdf.output()
+    return pdf_out.encode('latin-1') if isinstance(pdf_out, str) else bytes(pdf_out)
 
 # ==========================================
 # INITIALIZATION & STYLING
