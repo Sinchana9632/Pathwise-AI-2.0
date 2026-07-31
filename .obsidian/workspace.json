@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "6da5a90e1d02bb9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9e4ea21b8af7eb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d444029231c0326a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "uploads/Sinchana_Resume.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Sinchana_Resume"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2eb905937644f651",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e5e7d419da19ff8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "627defd0106b6807",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5c6ff09908fa0d12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f0dbb072c4627e35",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 409.5
+  },
+  "right": {
+    "id": "2a40c0bdb4516af9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0436ce37f71de935",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3e3ad3ac20011ff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "uploads/Sinchana_Resume.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sinchana_Resume"
+            }
+          },
+          {
+            "id": "5f9a9a1b37230a4c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "uploads/Sinchana_Resume.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Sinchana_Resume"
+            }
+          },
+          {
+            "id": "2d9b49af72f3792d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "870112b5305ec262",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0c671daf3941c65d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "uploads/Sinchana_Resume.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sinchana_Resume"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d444029231c0326a",
+  "lastOpenFiles": [
+    "reports/full_stack_developer_2026-05-14.pdf",
+    "reports/data_analyst_2026-05-14.pdf",
+    "reports/backend_developer_2026-05-17.pdf",
+    "docs/0_pathwise AI version 2.0.md",
+    "docs/1_project_overview.md",
+    "docs/2_existing_system_study.md",
+    "docs/3_literature_survey.md"
+  ]
+}
